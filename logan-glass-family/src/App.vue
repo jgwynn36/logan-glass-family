@@ -1,17 +1,24 @@
 <template>
   <div id="app">
+    <NavBar></NavBar>
+    <router-view/>
     <img alt="Family Picture 2019" src="./assets/family2019.jpg">
     <Users msg="Family Listing:"/>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Users from './components/Users.vue'
+import NavBar from './components/NavBar'
+import Users from './components/Users'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    Users
+    NavBar,
+    Users,
+    Footer
   }
 }
 </script>
