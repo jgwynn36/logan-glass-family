@@ -1,11 +1,12 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Welcome from "@/components/Welcome";
+import Home from "@/components/Home";
 import News from "@/components/News";
 import Contact from "@/components/Contact";
 import Members from "@/components/Members";
 import Photos from "@/components/Photos";
 import Registration from "@/components/Registration";
+import Users from "@component/Users"
 
 Vue.use(Router);
 
@@ -13,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Welcome",
-      component: Welcome,
+      name: "Home",
+      component: Home,
     },
     {
       path: "/news",
@@ -41,5 +42,10 @@ export default new Router({
       name: "Contact Us",
       component: Contact,
     },
+    {
+      path:"/users",
+      name: "Family Members", 
+      component: Users,
+    }
   ],
 });
