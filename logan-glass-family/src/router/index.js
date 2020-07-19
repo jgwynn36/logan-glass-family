@@ -6,7 +6,7 @@ import Contact from "@/components/Contact";
 import Members from "@/components/Members";
 import Photos from "@/components/Photos";
 import Registration from "@/components/Registration";
-import Users from "@component/Users"
+import Users from "@/components/Users"
 
 Vue.use(Router);
 
