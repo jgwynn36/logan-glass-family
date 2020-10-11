@@ -1,24 +1,22 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
-    <router-view/>
-    <img alt="Family Picture 2019" src="./assets/family2019.jpg">
-    <Users msg="Family Listing:"/>
+    <form>
+      <mdb-input type="text" class="text-white" placeholder="Search" aria-label="Search" label navInput waves waves-fixed/>
+    </form>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
-import Users from './components/Users'
 import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    NavBar,
-    Users,
-    Footer
+    'NavBar':NavBar,
+    'Footer':Footer,
   }
 }
 </script>
@@ -32,6 +30,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+footer {
+  float: left;
 }
 
 </style>
