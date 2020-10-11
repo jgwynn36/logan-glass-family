@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "@/components/Home";
+import Welcome from "@/components/Home";
 import News from "@/components/News";
 import Contact from "@/components/Contact";
 import Members from "@/components/Members";
@@ -11,11 +11,13 @@ import Users from "@/components/Users"
 Vue.use(Router);
 
 export default new Router({
+  mode:"history",
   routes: [
     {
       path: "/",
       name: "Home",
-      component: Home,
+      alias:"/",
+      component: Welcome,
     },
     {
       path: "/news",
