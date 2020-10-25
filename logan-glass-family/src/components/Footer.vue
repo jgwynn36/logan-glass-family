@@ -20,11 +20,10 @@ export default {
 
 <style>
 .footer {
-  bottom: 0;
   background-image:url('../assets/reunion-poster-image.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   color: black;
-  padding: 10px;
+  padding: 20px;
 }
 </style>
