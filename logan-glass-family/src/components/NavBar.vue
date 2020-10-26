@@ -24,7 +24,7 @@ export default {
 <style>
 #banner {
   background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-class-reunion-poster-image_133308.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: 100%;
   color: black;
 }
