@@ -5,8 +5,15 @@
         <mdb-col md="3" lg="3" xl="3" class="mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">Logan Glass Family Reunion</h6>
           <div class="powr-hit-counter" id="eb9aa96f_1603679904"></div>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.</p>
+          <p>Thanks you for being a part of this fantastic family.  We would like to hear from all of you and make this the best communication portal.</p>
+        </mdb-col>
+        <hr class="w-100 clearfix d-md-none" />
+        <mdb-col md="2" lg="2" xl="2" class="mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">VA Committee Members</h6>
+          <p><a href="#!">Genette Brown</a></p>
+          <p><a href="#!"></a></p>
+          <p><a href="#!"></a></p>
+          <p><a href="#!"></a></p>
         </mdb-col>
         <hr class="w-100 clearfix d-md-none" />
         <mdb-col md="3" lg="2" xl="2" class="mx-auto mt-3">
