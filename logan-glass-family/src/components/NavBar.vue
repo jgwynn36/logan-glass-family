@@ -30,6 +30,6 @@ export default {
 }
 .navbar {
   list-style-type:inherit ;
-  background-color: ivory;
+  background-color: black;
 }
 </style>
