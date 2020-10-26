@@ -10,10 +10,16 @@
         <hr class="w-100 clearfix d-md-none" />
         <mdb-col md="2" lg="2" xl="2" class="mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">VA Committee Members</h6>
-          <p><a href="#!">Genette Brown</a></p>
-          <p><a href="#!"></a></p>
-          <p><a href="#!"></a></p>
-          <p><a href="#!"></a></p>
+          <p><a href="#!">Robin Cobbs</a></p>
+          <p><a href="#!">John Glass</a></p>
+          <p><a href="#!">Kelvin Glass</a></p>
+          <p><a href="#!">Nancy Gwynn</a></p>
+          <p><a href="#!">Jacqueline Gwynn</a></p>
+          <p><a href="#!">Ashley Gwynn-Keene</a></p>
+          <p><a href="#!">Genette Lanier-Brown</a></p>
+          <p><a href="#!">Carlton Lanier</a></p>
+          <p><a href="#!">Leander Lanier</a></p>
+          <p><a href="#!">Carolyn Troy</a></p>
         </mdb-col>
         <hr class="w-100 clearfix d-md-none" />
         <mdb-col md="3" lg="2" xl="2" class="mx-auto mt-3">

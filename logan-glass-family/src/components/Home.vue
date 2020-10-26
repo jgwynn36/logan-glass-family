@@ -8,10 +8,12 @@
       <div class="reunion">
         <h2>2021 Reunion Information: {{moment("20210724", "YYYYMMDD").fromNow()}}</h2>
         <h4>Our next Reunion will be held on 7/23/21 - 7/25/21 in Williamburg Virginia</h4>
-        <img src="../assets/williamsburg-img.jpeg" alt="Williamsburg">
-        <p>I hope everyone is safe and healthy during these times.  Unfortunity the 2020 reunion was postponed due to COVID-19.  Thank you to our family members that hosted and planned the virtual meetup for the family.  It was nice to see everyone who participated in the zoom meeting. </p>
-        <p>Next year the VA committee is back on track to plan an awesome event in Williamburg VA. Currently we still have the same locations and hotels in place but we are waiting for 2021 pricing to provide more information.  A newsletter will be sent out early next year with more information.</p>
-        <p>If you have new contact information or would like to provide a better form of communication with the committee please use the <a rel="noopener noreferrer" target="blank" href="/Contact">Contact Us</a> link to provide this information and we will update our records and provide news to you.</p>
+        <div class="par1">
+          <img src="../assets/williamsburg-img.jpeg" alt="Williamsburg">
+          <p>I hope everyone is safe and healthy during these times.  Unfortunity the 2020 reunion was postponed due to COVID-19.  Thank you to our family members that hosted and planned the virtual meetup for the family.  It was nice to see everyone who participated in the zoom meeting. </p>
+          <p>Next year the VA committee is back on track to plan an awesome event in Williamburg VA. Currently we still have the same locations and hotels in place but we are waiting for 2021 pricing to provide more information.  A newsletter will be sent out early next year with more information.</p>
+          <p>If you have new contact information or would like to provide a better form of communication with the committee please use the <a rel="noopener noreferrer" target="blank" href="/Contact">Contact Us</a> link to provide this information and we will update our records and provide news to you.</p>
+        </div>
      </div>
 
     <div class="par2">
@@ -35,9 +37,10 @@ export default {
 <style>
 .body {
   text-align: left; 
+  padding-bottom: 30rem;
 }
 .glow {
-  padding: 2rem;
+  padding: 3rem;
   color: #fff;
   background-color: black;
   text-align: center;
@@ -54,8 +57,11 @@ export default {
   }
 }
 .par2 {
-  padding-top: 10px;
-  margin-left: 10px;
+  margin-left: 1rem;
+  float: left;
+}
+.par1 {
+  padding-top: 2rem;
 }
 
 </style>

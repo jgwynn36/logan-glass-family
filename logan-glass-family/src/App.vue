@@ -33,9 +33,11 @@ $image-path: '~@/../mdb/mdbvue/img';
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-class-reunion-poster-image_133308.jpg');
+  background-size: 100%;
 }
-footer {
-  float: left;
-}
+// footer {
+//   float: left;
+// }
 
 </style>
