@@ -10,7 +10,10 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
+    "@popperjs/core": "^2.5.3",
     "axios": "^0.19.2",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.18.1",
     "core-js": "^3.6.5",
     "emailjs": "^3.3.0",
     "emailjs-com": "^2.6.3",

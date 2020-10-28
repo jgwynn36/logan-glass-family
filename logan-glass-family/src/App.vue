@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
-    <form>
-      <mdb-input type="text" class="text-white" placeholder="Search" aria-label="Search" label navInput waves waves-fixed/>
-    </form>
     <Footer></Footer>
   </div>
 </template>
@@ -34,10 +31,7 @@ $image-path: '~@/../mdb/mdbvue/img';
   text-align: center;
   color: #2c3e50;
   background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-class-reunion-poster-image_133308.jpg');
-  background-size: 100%;
+  background-size: 200%;
 }
-// footer {
-//   float: left;
-// }
 
 </style>

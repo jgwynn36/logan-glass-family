@@ -1,9 +1,7 @@
 <template>
-  <div id="banner">
-    <div id="innerBanner">
-      <h1>Logan & Glass Family Reunion</h1>
-    </div>
+  <div>
     <nav class="navbar">
+      <h4 class="name">Logan Glass Family</h4>
       <router-link to="/">Home</router-link>
       <router-link to="/news">News</router-link>
       <router-link to="/members">Members</router-link>
@@ -22,11 +20,10 @@ export default {
 </script>
 
 <style>
-#banner {
-  color: black;
-}
 .navbar {
-  list-style-type:inherit ;
-  background-color: gray;
+  background-color: #343a40;
+}
+.name {
+  color: white;
 }
 </style>
