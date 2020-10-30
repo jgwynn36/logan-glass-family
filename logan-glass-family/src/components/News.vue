@@ -7,8 +7,6 @@
   <p>Due to COVID the reunion committee is in the process of renegotiating the rates for the hotel for our next reunion please check this link for updates.  In early 2021 we will have this information to share with the family.</p>
 
   <img src="../assets/news-img.jpg" alt="News">
-  
-  <!-- <h2>Find the latest news on the plans for the Family Reunion.</h2> -->
 
   <ul>
     <li>Date: 7/23/21 - 7/25/21</li>
@@ -21,21 +19,30 @@
     </li>
   </ul>
 
-  <h3>Come back to stay up on the latest reunion news. </h3>
+   <h3>Find the latest communications on the plans for the Family Reunion.</h3>
 
+<!-- Comment out due to not needed currently -->
+<!-- <h3>Come back to stay up on the latest reunion news. </h3> -->
+  <iframe src="https://docs.google.com/document/d/1DiP_R7HCvIxkchUWLLla4SMs_F6ii-9TD9qt58fMGH4/edit?usp=sharing" width="1000" height="1760" frameborder="0" marginheight="0" marginwidth="0">Loading… </iframe>
 </div>
 </template>
 
 <script>
 export default {
-  name: 'News' // this is the name of the compnent
+  name: 'News', // this is the name of the compnent
 }
 </script>
 
 <style>
 img {
+  margin-right:4rem;
   float:left;
-  padding:4rem;
+}
+.spacing {
+  padding:2rem
+}
+ul {
+  margin-bottom: 3rem
 }
 
 </style>
