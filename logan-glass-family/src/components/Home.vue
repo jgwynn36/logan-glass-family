@@ -36,8 +36,7 @@ export default {
 
 <style>
 .body {
-  text-align: left; 
-  padding-bottom: 20rem;
+  padding-bottom: 35rem;
 }
 .glow {
   padding: 3rem;

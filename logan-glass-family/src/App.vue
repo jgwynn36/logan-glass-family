@@ -32,6 +32,7 @@ $image-path: '~@/../mdb/mdbvue/img';
   color: #2c3e50;
   background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-class-reunion-poster-image_133308.jpg');
   background-size: 200%;
+  text-align: left;
 }
 
 </style>

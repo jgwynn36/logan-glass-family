@@ -8,11 +8,13 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import VueRouter from 'vue-router'
 import router from './router'
+import VueCardCarousel from "vue-card-carousel";
 
 Vue.config.productionTip = false;
 
 Vue.use(VueAxios, axios)
 Vue.use(VueRouter);
+Vue.use(VueCardCarousel);
 
 Vue.prototype.moment = moment;
 
