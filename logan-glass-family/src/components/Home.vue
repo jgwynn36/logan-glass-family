@@ -1,18 +1,18 @@
 <template>
   <div class="body">
-    <h1>Hello Family!!</h1>
     <h6 id="date">{{moment(date).format('MMMM Do YYYY, h:mm:ss a')}}</h6> 
     <h4 class="glow">Please remember to GO VOTE this is an important election year</h4>
     
     <div class="information">
       <div class="reunion">
         <h2>2021 Reunion Information: {{moment("20210724", "YYYYMMDD").fromNow()}}</h2>
-        <h4>Our next Reunion will be held on 7/23/21 - 7/25/21 in Williamburg Virginia</h4>
+        <h4>Hello Family,</h4>
+        <h4 class="indent">Our next Reunion will be held on 7/23/21 - 7/25/21 in Williamburg Virginia</h4>
         <div class="par1">
           <img src="../assets/williamsburg-img.jpeg" alt="Williamsburg">
           <p>I hope everyone is safe and healthy during these times.  Unfortunity the 2020 reunion was postponed due to COVID-19.  Thank you to our family members that hosted and planned the virtual meetup for the family.  It was nice to see everyone who participated in the zoom meeting. </p>
           <p>Next year the VA committee is back on track to plan an awesome event in Williamburg VA. Currently we still have the same locations and hotels in place but we are waiting for 2021 pricing to provide more information.  A newsletter will be sent out early next year with more information.</p>
-          <p>If you have new contact information or would like to provide a better form of communication with the committee please use the <a rel="noopener noreferrer" target="blank" href="/Contact">Contact Us</a> link to provide this information and we will update our records and provide news to you.</p>
+          <p>If you have new contact information or would like to provide a better form of communication with the committee please use the <a rel="noopener noreferrer" target="blank" href="/logan-glass-family/contact">Contact Us</a> link to provide this information and we will update our records and provide news to you.</p>
         </div>
      </div>
 
@@ -37,10 +37,12 @@ export default {
 <style>
 .body {
   text-align: left; 
-  padding-bottom: 30rem;
+  padding-bottom: 20rem;
 }
 .glow {
   padding: 3rem;
+  margin-top:2rem;
+  margin-bottom:2rem;
   color: #fff;
   background-color: black;
   text-align: center;
@@ -63,5 +65,11 @@ export default {
 .par1 {
   padding-top: 2rem;
 }
-
+#date {
+  margin-top:1rem;
+  text-align:right;
+}
+.indent {
+  margin-left:3rem
+}
 </style>
