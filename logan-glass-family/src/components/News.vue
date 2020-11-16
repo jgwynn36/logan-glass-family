@@ -23,7 +23,7 @@
 
 <!-- Comment out due to not needed currently -->
 <!-- <h3>Come back to stay up on the latest reunion news. </h3> -->
-  <iframe src="https://docs.google.com/document/d/1DiP_R7HCvIxkchUWLLla4SMs_F6ii-9TD9qt58fMGH4/edit?usp=sharing" width="1000" height="1760" frameborder="0" marginheight="0" marginwidth="0">Loading… </iframe>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRMdusiCCb2Tduc67wPgmbMmHjkypJDiKB8-2qjIyEAGazzTCOQJcxG3MvVmgpnNRMIcDeFjQG3Fa8U/pub?embedded=true" width="1000" height="1760" frameborder="0" marginheight="0" marginwidth="0">Loading… </iframe>
 </div>
 </template>
 
